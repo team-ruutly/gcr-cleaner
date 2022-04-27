@@ -31,7 +31,7 @@
 ## Start removing unused images.
 
 
-`go run main.go -repo gcr.io/oceanic-hook-268813/repo-name -keep 3 --tag-filter-all .`
+`go run main.go -repo gcr.io/oceanic-hook-268813/repo-name -keep 3 --tag-filter-all . -recursive`
 
 - Repo: Name of repo for which want to remove unused images
 - keep: no of images you dont to want to be removed
