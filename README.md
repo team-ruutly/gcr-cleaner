@@ -28,7 +28,7 @@
     projects.
 
 
-## Start rmeoving unused images
+## Start removing unused images.
 
 
 `go run main.go -repo gcr.io/oceanic-hook-268813/repo-name -keep 3 --tag-filter-all .`
